@@ -1,4 +1,3 @@
-//===
 const speciesList = [
   {
     name: "Green Treefrog",
@@ -365,7 +364,7 @@ const speciesList = [
     ID_a: "2",
     ID_b: "9",
     ID_c: "17",
-    location: "Sandy Hook National Wildlife Refuge, Kent County, Delaware",
+    location: "Bombay Hook National Wildlife Refuge, Kent County, Delaware",
     time: "October 4th, 2024",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/439231225/large.jpg"
   },
@@ -986,7 +985,7 @@ const speciesList = [
     ID_a: "2",
     ID_b: "17",
     ID_c: "36",
-    location: "Isla San Isabela, Galápagos, Ecuador",
+    location: "Isla Isabela, Galápagos, Ecuador",
     time: "March 19th, 2026",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/626490204/original.jpg"
   },
@@ -1000,7 +999,7 @@ const speciesList = [
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/504613983/original.jpg"
   },
   {
-    name: "San Crstóbal Mockingbird",
+    name: "San Cristóbal Mockingbird",
     ID_a: "2",
     ID_b: "17",
     ID_c: "36",
@@ -1418,7 +1417,7 @@ const speciesList = [
     ID_a: "2",
     ID_b: "17",
     ID_c: "43",
-    location: "Guyaquil, Ecuador",
+    location: "Guayaquil, Ecuador",
     time: "March 12th, 2026",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/624025051/large.jpg"
   },
@@ -1608,7 +1607,7 @@ const speciesList = [
     ID_b: "17",
     ID_c: "48",
     location: "Fish Camp, Colfax County, New Mexico",
-    time: "",
+    time: "August 2nd, 2024",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/415091922/large.jpg"
   },
   {
@@ -1779,7 +1778,7 @@ const speciesList = [
     ID_b: "17",
     ID_c: "50",
     location: "Coronado National Forest, Cochise County, Arizona",
-    time: "",
+    time: "June 3rd, 2024",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/391287239/large.jpg"
   },
   {
@@ -2156,7 +2155,7 @@ const speciesList = [
     ID_a: "2",
     ID_b: "20",
     ID_c: "58",
-    location: "Cameron Prairie national Wildlife Refuge, Cameron Parish, Louisiana",
+    location: "Cameron Prairie National Wildlife Refuge, Cameron Parish, Louisiana",
     time: "May 16th, 2025",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/505904100/original.jpg"
   },
@@ -2175,7 +2174,7 @@ const speciesList = [
     ID_b: "21",
     ID_c: "59",
     location: "Rio Grande Nature Center State Park, Albuquerque, New Mexico",
-    time: "May 21st 2025",
+    time: "May 21st, 2025",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/508825472/original.jpg"
   },
   {
@@ -2565,7 +2564,7 @@ const speciesList = [
     ID_b: "22",
     ID_c: "60",
     location: "Port Sanilac, Michigan",
-    time: "Sanilac County, Michigan",
+    time: "March 20th, 2025",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/478477953/original.jpg"
   },
   {
@@ -2600,7 +2599,7 @@ const speciesList = [
     ID_a: "2",
     ID_b: "22",
     ID_c: "60",
-    location: "Cameron Prairie, Louisiana",
+    location: "Cameron Prairie National Wildlife Refuge, Cameron Parish, Louisiana",
     time: "May 16th, 2025",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/505905132/original.jpg"
   },
@@ -2861,7 +2860,7 @@ const speciesList = [
     ID_a: "3",
     ID_b: "26",
     ID_c: "70",
-    location: "White Sands National Park, Otero Country, New Mexico",
+    location: "White Sands National Park, Otero County, New Mexico",
     time: "June 29th, 2024",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/400770493/original.jpg"
   },
@@ -2969,7 +2968,7 @@ const speciesList = [
     ID_a: "3",
     ID_b: "28",
     ID_c: "75",
-    location: "Assateague National Seashore, Worcester County, Maryland",
+    location: "Assateague Island National Seashore, Worcester County, Maryland",
     time: "October 4th, 2024",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/439239628/original.jpg"
   },
@@ -3518,7 +3517,7 @@ const speciesList = [
     ID_a: "4",
     ID_b: "33",
     ID_c: "91",
-    location: "Ozark-St. Francis National Forests, Logan COunty, Arkansas",
+    location: "Ozark-St. Francis National Forests, Logan County, Arkansas",
     time: "August 6th, 2024",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/416365361/original.jpeg"
   },
@@ -3573,7 +3572,7 @@ const speciesList = [
     ID_b: "34",
     ID_c: "94",
     location: "Blackwater National Wildlife Refuge, Dorchester County, Maryland",
-    time: "October 5th,  2024",
+    time: "October 5th, 2024",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/439245823/original.jpg"
   },
   {
