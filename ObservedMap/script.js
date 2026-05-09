@@ -6,6 +6,9 @@ const mapLabel = document.querySelector(".map-label");
 buttons.forEach(button => {
   button.addEventListener("click", () => {
 
+    // scroll to top instantly on any top button click
+    window.scrollTo({ top: 0, behavior: "auto" });
+
     buttons.forEach(b => b.classList.remove("active"));
     button.classList.add("active");
 
