@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Observation Maps</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+
+    <button class="map-button active" data-map="counties">
+      Counties Observed
+    </button>
+
+    <button class="map-button" data-map="states">
+      States Observed
+    </button>
+
+    <button class="map-button" data-map="countries">
+      Countries Observed
+    </button>
+
+  </div>
+
+  <!-- LABEL -->
+  <div class="map-label">
+    temp text ignore lolsies
+  </div>
+
+  <!-- MAP -->
+  <div class="map-box">
+
+    <img class="map-image active shift-right" id="counties" src="maps/counties.png">
+    <img class="map-image shift-right" id="states" src="maps/states.png">
+    <img class="map-image" id="countries" src="maps/countries.png">
+
+  </div>
+
+  <!-- LIST OUTPUT -->
+  <div id="state-list"></div>
+
+  <!-- SCRIPTS (ORDER CRITICAL) -->
+  <script src="regionsstate.js"></script>
+  <script src="regionscountry.js"></script>
+
+  <!-- COUNTY FILES -->
+  <script src="regionscounty.js"></script>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
