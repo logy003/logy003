@@ -32,34 +32,20 @@ function renderMenu(node) {
   });
 }
 
-// ✅ SAFE COUNT FUNCTION (handles missing IDs)
+// COUNT FUNCTION
 function getCountForNode(node) {
   let results = [...speciesList];
 
-  if (node.id_a) {
-    results = results.filter(s => s.ID_a === node.id_a);
-  }
-
-  if (node.id_b) {
-    results = results.filter(s => s.ID_b === node.id_b);
-  }
-
-  if (node.id_c) {
-    results = results.filter(s => s.ID_c === node.id_c);
-  }
-
-  if (node.id_d) {
-    results = results.filter(s => s.ID_d && s.ID_d === node.id_d);
-  }
-
-  if (node.id_e) {
-    results = results.filter(s => s.ID_e && s.ID_e === node.id_e);
-  }
+  if (node.id_a) results = results.filter(s => s.ID_a === node.id_a);
+  if (node.id_b) results = results.filter(s => s.ID_b === node.id_b);
+  if (node.id_c) results = results.filter(s => s.ID_c === node.id_c);
+  if (node.id_d) results = results.filter(s => s.ID_d && s.ID_d === node.id_d);
+  if (node.id_e) results = results.filter(s => s.ID_e && s.ID_e === node.id_e);
 
   return results.length;
 }
 
-// SHUFFLE FUNCTION
+// SHUFFLE
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -82,31 +68,17 @@ function closeImagePopup() {
   document.getElementById("imagePopup").style.display = "none";
 }
 
-// MAIN LOGIC
+// MAIN RENDER
 function renderContent(node) {
   const main = document.querySelector(".main");
 
   let results = [...speciesList];
 
-  if (node.id_a) {
-    results = results.filter(s => s.ID_a === node.id_a);
-  }
-
-  if (node.id_b) {
-    results = results.filter(s => s.ID_b === node.id_b);
-  }
-
-  if (node.id_c) {
-    results = results.filter(s => s.ID_c === node.id_c);
-  }
-
-  if (node.id_d) {
-    results = results.filter(s => s.ID_d && s.ID_d === node.id_d);
-  }
-
-  if (node.id_e) {
-    results = results.filter(s => s.ID_e && s.ID_e === node.id_e);
-  }
+  if (node.id_a) results = results.filter(s => s.ID_a === node.id_a);
+  if (node.id_b) results = results.filter(s => s.ID_b === node.id_b);
+  if (node.id_c) results = results.filter(s => s.ID_c === node.id_c);
+  if (node.id_d) results = results.filter(s => s.ID_d && s.ID_d === node.id_d);
+  if (node.id_e) results = results.filter(s => s.ID_e && s.ID_e === node.id_e);
 
   results = shuffleArray(results);
 
@@ -124,9 +96,13 @@ function renderContent(node) {
     html += `
       <div class="tile">
         <img loading="lazy" src="${s.image_url}" onclick="openImagePopup('${s.image_url}')">
-        <h2>${s.name}</h2>
-        <h5>${s.location}</h5>
-        <h5>${s.time}</h5>
+        
+        <div class="text">
+          <h2>${s.name}</h2>
+          <div class="meta">
+            ${s.location} • ${s.time}
+          </div>
+        </div>
       </div>
     `;
   });
@@ -155,7 +131,7 @@ function handleTopClick() {
   }
 }
 
-// ✅ ESC CLOSE (only if popup is open)
+// ESC CLOSE
 document.addEventListener("keydown", function (e) {
   const popup = document.getElementById("imagePopup");
 
