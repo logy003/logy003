@@ -1278,6 +1278,15 @@ const speciesList = [
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/611293462/large.jpg"
   },
   {
+    name: "American Redstart",
+    ID_a: "2",
+    ID_b: "17",
+    ID_c: "39",
+    location: "Shawnee Lookout, Hamilton County, Ohio",
+    time: "May 11th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/658295222/original.jpg"
+  },
+  {
     name: "Mangrove Yellow Warbler",
     ID_a: "2",
     ID_b: "17",
