@@ -3686,6 +3686,15 @@ const speciesList = [
     time: "May 6th, 2026",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/655063452/original.jpg"
   },
+  {
+    name: "Cedar Waxing",
+    ID_a: "2",
+    ID_b: "17",
+    ID_c: "53",
+    location: "Cincinnati, Ohio",
+    time: "May 12th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/658732288/original.jpg"
+  },
 
  
 ];
