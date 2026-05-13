@@ -182,6 +182,7 @@ const taxonomy = {
             { name: "Treecreepers", id_a: "2", id_b: "17", id_c: "49" },
             { name: "Tyrant Flycatchers", id_a: "2", id_b: "17", id_c: "50" },
             { name: "Wagtails and Pipits", id_a: "2", id_b: "17", id_c: "51" },
+            { name: "Waxwings", id_a: "2", id_b: "17", id_c: "53" },
             { name: "Wrens", id_a: "2", id_b: "17", id_c: "52" }
 
           ]
