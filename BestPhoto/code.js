@@ -95,7 +95,7 @@ function renderContent(node) {
   results.forEach(s => {
     html += `
       <div class="tile">
-      //  <img loading="lazy" src="${s.image_url}" onclick="openImagePopup('${s.image_url}')">
+        <img loading="lazy" src="${s.image_url}" onclick="openImagePopup('${s.image_url}')">
         
         <div class="text">
           <h2>${s.name}</h2>
