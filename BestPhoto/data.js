@@ -181,6 +181,7 @@ const taxonomy = {
             { name: "Tits, Chickadees, and Titmice", id_a: "2", id_b: "17", id_c: "48" },
             { name: "Treecreepers", id_a: "2", id_b: "17", id_c: "49" },
             { name: "Tyrant Flycatchers", id_a: "2", id_b: "17", id_c: "50" },
+            { name: "Vireos, Shrike-Babblers, and Erpornis", id_a: "2", id_b: "17", id_c: "99" },
             { name: "Wagtails and Pipits", id_a: "2", id_b: "17", id_c: "51" },
             { name: "Waxwings", id_a: "2", id_b: "17", id_c: "98" },
             { name: "Wrens", id_a: "2", id_b: "17", id_c: "52" }
