@@ -9,6 +9,15 @@ const speciesList = [
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/558278904/original.jpg"
   },
   {
+    name: "Mountain Chorus Frog",
+    ID_a: "1",
+    ID_b: "1",
+    ID_c: "1",
+    location: "Rowan County, Kentucky",
+    time: "March 6th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/621898214/original.jpg"
+  },
+  {
     name: "Cope's Gray Tree Frog",
     ID_a: "1",
     ID_b: "1",
