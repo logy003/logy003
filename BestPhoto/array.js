@@ -2857,6 +2857,15 @@ const speciesList = [
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/624829075/original.jpg"
   },
   {
+    name: "Galápagos Fur Seal",
+    ID_a: "3",
+    ID_b: "25",
+    ID_c: "66",
+    location: "Isla Isabela, Galápagos, Ecuador",
+    time: "March 18th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/626488093/original.jpg"
+  },
+  {
     name: "Bobcat",
     ID_a: "3",
     ID_b: "25",
