@@ -3271,6 +3271,15 @@ const speciesList = [
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/627258941/original.jpg"
   },
   {
+    name: "Green Iguana",
+    ID_a: "4",
+    ID_b: "32",
+    ID_c: "85",
+    location: "Guayaquil, Ecuador",
+    time: "March 12th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/624024835/original.jpg"
+  },
+  {
     name: "San Cristobal Lava Lizard",
     ID_a: "4",
     ID_b: "32",
@@ -3422,6 +3431,15 @@ const speciesList = [
     location: "Taylor Mill, Kentucky",
     time: "April 20th, 2025",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/489048136/original.jpg"
+  },
+  {
+    name: "Asian House Gecko",
+    ID_a: "4",
+    ID_b: "32",
+    ID_c: "88",
+    location: "Isla San Cristóbal, Galápagos, Ecuador",
+    time: "March 20th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/627191125/original.jpg"
   },
   {
     name: "Mourning Gecko",
