@@ -108,6 +108,15 @@ const speciesList = [
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/632079412/original.jpg"
   },
   {
+    name: "Ravine Salamander",
+    ID_a: "1",
+    ID_b: "2",
+    ID_c: "5",
+    location: "Morehead, Kentucky",
+    time: "February 28th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/619906235/original.jpg"
+  },
+  {
     name: "Spotted Salamander",
     ID_a: "1",
     ID_b: "2",
