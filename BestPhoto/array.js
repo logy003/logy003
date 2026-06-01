@@ -2223,6 +2223,15 @@ const speciesList = [
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/402633483/original.jpg"
   },
   {
+    name: "Chimney Swift",
+    ID_a: "2",
+    ID_b: "21",
+    ID_c: "100",
+    location: "Devou Park, Covington, Kentucky",
+    time: "May 31st, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/670349047/original.jpg"
+  },
+  {
     name: "Black-chinned Hummingbird",
     ID_a: "2",
     ID_b: "21",
@@ -3775,6 +3784,15 @@ const speciesList = [
     location: "Hamilton County, Ohio",
     time: "May 15th, 2026",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/660699978/original.jpg"
+  },
+  {
+    name: "",
+    ID_a: "2",
+    ID_b: "17",
+    ID_c: "101",
+    location: "Devou Park, Covington, Kentucky",
+    time: "May 31st, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/670348958/original.jpg"
   },
 
 
