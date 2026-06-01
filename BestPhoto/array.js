@@ -3786,7 +3786,7 @@ const speciesList = [
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/660699978/original.jpg"
   },
   {
-    name: "",
+    name: "Yellow-breasted Chat",
     ID_a: "2",
     ID_b: "17",
     ID_c: "101",
