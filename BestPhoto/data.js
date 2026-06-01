@@ -184,7 +184,8 @@ const taxonomy = {
             { name: "Vireos, Shrike-Babblers, and Erpornis", id_a: "2", id_b: "17", id_c: "99" },
             { name: "Wagtails and Pipits", id_a: "2", id_b: "17", id_c: "51" },
             { name: "Waxwings", id_a: "2", id_b: "17", id_c: "98" },
-            { name: "Wrens", id_a: "2", id_b: "17", id_c: "52" }
+            { name: "Wrens", id_a: "2", id_b: "17", id_c: "52" },
+            { name: "Yellow-breasted Chats", id_a: "2", id_b: "17", id_c: "101" },
 
           ]
         },
@@ -220,7 +221,8 @@ const taxonomy = {
           id_a: "2",
           id_b: "21",
           children: [
-            { name: "Hummingbirds", id_a: "2", id_b: "21", id_c: "59" }
+            { name: "Hummingbirds", id_a: "2", id_b: "21", id_c: "59" },
+            { name: "Swifts", id_a: "2", id_b: "21", id_c: "100" }
           ]
         },
         {
