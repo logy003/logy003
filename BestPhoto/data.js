@@ -288,6 +288,15 @@ const taxonomy = {
               ]
         },
         {
+          name: "Catfishes",
+          id_a: "a",
+          id_b: "b",
+          id_c: "b",
+          children: [
+            { name: "North American Freshwater Catfishes", id_a: "a",id_b: "b", id_c: "j", id_d: "k"},
+              ]
+        },
+        {
           name: "Freshwater Sunfishes, Grunters, and Allies",
           id_a: "a",
           id_b: "b",
