@@ -291,7 +291,7 @@ const taxonomy = {
           name: "Catfishes",
           id_a: "a",
           id_b: "b",
-          id_c: "b",
+          id_c: "j",
           children: [
             { name: "North American Freshwater Catfishes", id_a: "a",id_b: "b", id_c: "j", id_d: "k"},
               ]
