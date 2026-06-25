@@ -3794,6 +3794,16 @@ const speciesList = [
     time: "May 31st, 2026",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/670348958/original.jpg"
   },
+  {
+    name: "Channel Catfish",
+    ID_a: "a",
+    ID_b: "b",
+    ID_c: "j",
+    ID_d: "k",
+    location: "Licking River, Wilder, Kentucky",
+    time: "June 13th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/678173368/original.jpg"
+  },
 
 
  
