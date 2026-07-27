@@ -3595,7 +3595,7 @@ const speciesList = [
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/442357415/original.jpeg"
   },
   {
-    name: "Gray Ratsnake",
+    name: "Central Ratsnake",
     ID_a: "4",
     ID_b: "33",
     ID_c: "91",
