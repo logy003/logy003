@@ -3800,9 +3800,27 @@ const speciesList = [
     ID_b: "b",
     ID_c: "j",
     ID_d: "k",
-    location: "Licking River, Wilder, Kentucky",
-    time: "June 13th, 2026",
-    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/678173368/original.jpg"
+    location: "Lake Dartmoor, Fairfield Glade, Tennessee",
+    time: "July 25th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/704868409/original.jpg"
+  },
+  {
+    name: "New Mexico Whiptail",
+    ID_a: "4",
+    ID_b: "32",
+    ID_c: "90",
+    location: "Rio Grande Nature Center State Park, Albuquerque, New Mexico",
+    time: "May 21st, 2025",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/508825915/original.jpg"
+  },
+  {
+    name: "Eastern Copperhead",
+    ID_a: "4",
+    ID_b: "33",
+    ID_c: "92",
+    location: "Crab Orchard, Tennessee",
+    time: "July 26th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/705460178/original.jpg"
   },
 
 
