@@ -3822,6 +3822,16 @@ const speciesList = [
     time: "July 26th, 2026",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/705460178/original.jpg"
   },
+  {
+    name: "Steelcolor Shiner",
+    ID_a: "a",
+    ID_b: "b",
+    ID_c: "d",
+    ID_d: "e",
+    location: "Watts Bar Lake, Spring City, Tennessee",
+    time: "July 25th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/704541735/original.jpg"
+  },
 
 
  
