@@ -1592,6 +1592,15 @@ const speciesList = [
     time: "June 23rd, 2024",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/398192113/large.png"
   },
+   {
+    name: "Rufous-backed Robin",
+    ID_a: "2",
+    ID_b: "17",
+    ID_c: "47",
+    location: "Mexico City, Mexico",
+    time: "September 29th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/743002138/original.jpg"
+  },
   {
     name: "Eastern Bluebird",
     ID_a: "2",
@@ -1906,6 +1915,15 @@ const speciesList = [
     location: "Falmouth, Kentucky",
     time: "September 2nd, 2024",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/427032796/large.jpg"
+  },
+  {
+    name: "Inca Dove",
+    ID_a: "2",
+    ID_b: "18",
+    ID_c: "53",
+    location: "Mexico City, Mexico",
+    time: "September 27th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/742034843/original.jpg"
   },
   {
     name: "Mourning Dove",
@@ -3134,6 +3152,15 @@ const speciesList = [
     location: "Azimuth, Delaware",
     time: "October 4th, 2024",
     image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/439228359/original.jpg"
+  },
+  {
+    name: "Red-bellied Squirrel",
+    ID_a: "3",
+    ID_b: "30",
+    ID_c: "81",
+    location: "Mexico City, Mexico",
+    time: "September 29th, 2026",
+    image_url: "https://inaturalist-open-data.s3.amazonaws.com/photos/743001659/original.jpg"
   },
   {
     name: "Common Golden-mantled Ground Squirrel",
