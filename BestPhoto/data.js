@@ -297,6 +297,15 @@ const taxonomy = {
               ]
         },
         {
+          name: "Cichlids and Allies",
+          id_a: "a",
+          id_b: "b",
+          id_c: "k",
+          children: [
+            { name: "Cichlids", id_a: "a",id_b: "b", id_c: "k", id_d: "l"},
+              ]
+        },
+        {
           name: "Freshwater Sunfishes, Grunters, and Allies",
           id_a: "a",
           id_b: "b",
