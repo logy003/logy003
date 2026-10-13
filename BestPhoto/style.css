@@ -8,6 +8,36 @@
   --shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
+/* SCROLLBARS */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--text) var(--bg-dark);
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text);
+  border-radius: 10px;
+  border: 3px solid var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--bg-dark);
+}
+
 body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -105,7 +135,6 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(8px);
 
-  /* FIX: remove forced empty space */
   min-height: unset;
   height: auto;
 
@@ -120,7 +149,7 @@ body {
 /* IMAGE */
 .tile img {
   width: 100%;
-  height: 460px; /* keeps strong visual focus */
+  height: 460px;
   object-fit: contain;
   background-color: #000;
   display: block;
